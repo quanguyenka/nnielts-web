@@ -691,11 +691,16 @@ ul {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 8px;
+    color: var(--text-dark);
 }
 
 .course-subtitle {
     color: var(--text-light);
     margin-bottom: 20px;
+}
+
+.course-card.featured .course-title {
+    color: white;
 }
 
 .course-card.featured .course-subtitle {
@@ -1302,10 +1307,15 @@ ul {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 5px;
+    color: var(--text-dark);
 }
 
 .pricing-header p {
     color: var(--text-light);
+}
+
+.pricing-card.featured .pricing-header h3 {
+    color: white;
 }
 
 .pricing-card.featured .pricing-header p {
