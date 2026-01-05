@@ -717,11 +717,16 @@ ul {
     gap: 10px;
     padding: 8px 0;
     font-size: 14px;
+    color: var(--text-dark);
 }
 
 .info-item i {
     color: var(--primary-color);
     width: 20px;
+}
+
+.course-card.featured .info-item {
+    color: white;
 }
 
 .course-card.featured .info-item i {
@@ -745,11 +750,16 @@ ul {
     gap: 10px;
     margin-bottom: 10px;
     font-size: 14px;
+    color: var(--text-dark);
 }
 
 .course-features i {
     color: var(--accent-color);
     margin-top: 3px;
+}
+
+.course-card.featured .course-features li {
+    color: white;
 }
 
 .course-card.featured .course-features i {
@@ -1365,11 +1375,16 @@ ul {
     gap: 12px;
     margin-bottom: 15px;
     font-size: 15px;
+    color: var(--text-dark);
 }
 
 .pricing-features i {
     color: var(--accent-color);
     margin-top: 3px;
+}
+
+.pricing-card.featured .pricing-features li {
+    color: white;
 }
 
 .pricing-card.featured .pricing-features i {
