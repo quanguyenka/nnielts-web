@@ -1,0 +1,85 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Supabase
+.branches
+.temp
+.supabase
+
+# Flutter/Mobile App
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+mobile/build/
+mobile/.flutter-plugins-dependencies
+mobile/*.iml
+mobile/*.lock
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/ios/Flutter/
+mobile/ios/Runner.xcworkspace/xcuserdata/
+mobile/ios/Runner.xcodeproj/xcuserdata/
+mobile/android/.gradle/
+mobile/android/app/*.jks
+mobile/macos/Pods/
+mobile/macos/.symlinks/
+mobile/macos/Flutter/
+mobile/web/.dart_tool/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# Coverage
+coverage/
+*.lcov
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+*.dSYM.zip
+
+# Certificates
+*.p12
+*.pem
+*.key
+*.crt
+
+# Secrets
+secrets/
+credentials/
+
+# Claude Session Management
+.claude/session_backups/
+.claude/shell-snapshots/
+.claude/.DS_Store
+PROGRESS_NOTES*.md
+
+# Flutter DevTools
+mobile/devtools_options.yaml
