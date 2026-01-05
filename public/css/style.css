@@ -540,6 +540,10 @@ ul {
     line-height: 1.8;
 }
 
+.section-dark .section-title {
+    color: var(--text-white);
+}
+
 .section-dark .section-description {
     color: rgba(255, 255, 255, 0.8);
 }
