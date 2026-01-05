@@ -532,6 +532,7 @@ ul {
     font-weight: 800;
     margin-bottom: 15px;
     font-family: 'Playfair Display', serif;
+    color: var(--text-dark);
 }
 
 .section-description {
@@ -541,7 +542,7 @@ ul {
 }
 
 .section-dark .section-title {
-    color: var(--text-white);
+    color: var(--text-white) !important;
 }
 
 .section-dark .section-description {
